@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Poppins';
+}
+.container{
+    background-color: purple;
+    width: 100%;
+    height: 80vh;
+}
+img{
+    width: 8%;
+    border-radius: 50%;
+}
+.content h3{
+    color: white;
+    text-align: center;
+    font-size: 33px;
+    padding: 2rem;
+}
+.content p{
+    color: white;
+    font-size: 28px;
+}
+.timing{
+    border: 1px solid white;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 2rem 0 0 25%;
+}
+.timing p{
+   color:white;
+}
